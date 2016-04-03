@@ -19,10 +19,12 @@ SOURCES += main.cpp \
     trint.cpp \
     converter.cpp \
     tribool.cpp \
-    tryte.cpp
+    tryte.cpp \
+    trfloat.cpp
 
 HEADERS += \
     trint.h \
     converter.h \
     tribool.h \
-    tryte.h
+    tryte.h \
+    trfloat.h

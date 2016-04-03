@@ -23,20 +23,6 @@ Trint::Trint(int num10)
     qDebug()<<this->trits;
 }
 
-Trint::Trint(int *trits)
-{
-    //    QVector<int> tmpNum=trits;
-    //    if(tmpNum.size()<=36)
-    //    {
-    //        for(int i=35, j=tmpNum.size()-1;i>=0;i--,j--)
-    //        {
-    //            if(j<0) break;
-    //            else this->trits[i]=tmpNum[j];
-    //        }
-    //    }
-    //    else
-    //        throw "Out of size";
-}
 
 Trint::Trint(const Trint& num)
 {

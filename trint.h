@@ -10,7 +10,6 @@ class Trint
 public:
     Trint();
     Trint(int num10);
-    Trint(int* trits);
     Trint(const Trint& num);
 
     Trint operator+(const Trint& num);
